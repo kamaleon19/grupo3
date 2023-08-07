@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+     background-color:  #e0e0e0;
+    text-align: center;
+    margin: 0;
+   
+    
+    }
+
+ 
+   
+
+#Bienvenidos{
+    background-color:#009688 ;
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    border-radius: 8px;
+    /* border: solid 2px blue;
+     */
+    
+}
+
+
+
+button{
+    background-color:#009688 ;
+    border-radius: 8px;
+    width: 50%;
+    border: solid 2px black;
+    text-decoration: none;
+    color: black; 
+    
+} 
+
+  #boton{
+    text-decoration: none;
+    color: black;
+
+
+} 
+
+#link{
+    color: black;
+    text-decoration: none;
+}
+
+#logos{
+   width: 20%;
+   display: flex;
+   justify-content: space-around;
+   margin: auto;
+    /* border: solid 2px blue;  */
+}
+
+ a{
+  width: 30%;
+} 
+
+/*  #formulario{
+    border:solid 2px red ;
+}  */
+#registrarse{
+    border: solid 2px black;
+    background-color:#009688 ;
+    display: none;
+}
+
+
+
+
+@media (min-width:770px) {
+
+    #registrarse{
+        display: block; 
+        width: 100%;
+        height: 100%;
+        padding-bottom: 17%;
+        padding-top: 5%;
+        
+
+    }
+
+  #login{
+    display: flex;
+    margin:0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    align-items: stretch;
+    height: 100vh;
+    /*  border: solid 2px blue;  */
+
+  }  
+  #formulario{
+    width: 100%;
+    height: 100%;
+    padding-top: 5%;
+  }
+
+  button{
+    width: 20%;
+    text-decoration: none;
+    color: black;
+    padding: 1% 2%;
+}
+
+
+#Bienvenidos{
+  width:60%;
+  margin-left: 20%;
+}
+#boton-registrarse{
+     width: 100%;
+}
+
+input{
+  padding:1% 2%;
+  font-size: 100%;
+
+}
+
+}
+  
+
+ 

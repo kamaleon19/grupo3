@@ -32,6 +32,12 @@
     margin-right: 25px;
     margin-left: 10px;
 }
+#inicio-registro{
+    text-decoration: none;
+    color: black;
+}
+
+
 .carrito_persona_img{
     font-size: 50px;
     background-color: aliceblue;
