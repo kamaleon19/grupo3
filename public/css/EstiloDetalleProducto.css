@@ -1,187 +1,360 @@
-.arriba{
+body{margin: 0;}
+.Encabezado{
     background-color: #e0e0e0    ;
     display: flex;
     flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
     }
-.logoRaton{
-    width: 100px;
-    height: 140px;
+.logo{
+    width: 12vw;
+    height: 80%;
     display: flex;
-    margin-left: 80px;
-    margin-right: 160px;
   }
-.busqueda{
+.Encabezado p0{
+    height: 31%;
     background-color: white;
-    font-size: 30px;
+    font-size: 15px;
     display: flex;
+    width: 40vw;
+    border-radius: 30px;
     justify-content: center;
     align-items: center;
-    width: 600px;
-    height: 40px;
-    padding: 10px;
-    border: solid 2px black;
-    border-radius: 30px;
-    margin-top: 60px;
-    margin-bottom: 30px;
-    margin-right: 85px;
-}
-.carrito_persona{
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    margin-right: 25px;
-    margin-left: 10px;
-}
-.carrito_persona_img{
-    font-size: 50px;
+    margin-right: 3vw;
+    margin-left: 8vw;
+    color: rgb(97, 97, 97) ;
+}    
+.Encabezado p1{
+    font-size: 20px; 
+    width: 5vw;
+    height: 31%;
     background-color: aliceblue;
-    width: 60px;
-    height:60px ;
     display: flex;    
     justify-content: center; 
     align-items: center;
-    padding: 10px;
     border: solid 2px black;
     border-radius: 50%;
 }
+.Encabezado p2{
+    font-size:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 50%;
+}
 .opciones1{
+    font-size: 20px;
+    height: 50px;
+    color: white;
     background-color: #009688;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     border-top: solid 1px black;
 }
-.letrasOPciones1{
-    height: 50px;
-    font-size: 25px;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; 
-    align-items: center;
-    margin: 0px 300px 0px;
-}
 .opciones2{
-    height: 35px;
-    font-size: 20px;
-    background-color: #FABA5B; 
+    font-size: 15px;
+    height: 40px;
+    background-color: #FABA5B;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around; 
+    justify-content: space-around;
     align-items: center;
+    border-top: solid 1px black;
     border-top: solid 1px black;
     border-bottom:  solid 1px black;
 }
+div1{
+    display: flex;
+    flex-direction: row;
+}
+.producto{
+    font-size: 12px;
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .ComoSeLlego{
-    width: 550;
-    font-size: 25px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 70px;
-    margin-left: 20px;
 }
 .logoProducto{
+    margin: 0 5%;
     background-color: #DA7110;
     display: flex;
-    width: 500px;
-    height: 500px;
-    padding: 30px 0px 30px;
     border: solid 1px black;
-    margin: 10px 0px 0px 40px;
-}
-.imgYdescripcion{
-    display: flex;
-    flex-direction: row;
 }
 .descripcion{
+    width: 55vw;
     display: flex;
     flex-direction: column;
-    margin-left: 150px;
-    margin-top: 30px;
 }
-.fizz_precio{
-    font-size: 30px;
+
+.nombre-producto{
+    font-size: 20px;
     color: gray;
-    margin: 5px;
+    margin-left: 10%;
+    margin: 25px 0 5% 10%;
 }
-.Producto{
-    font-size: 40px;
+.tipo-producto{
+    max-width:300px;
+    font-size: 20px;
     background-color: #FDA33A;
-    padding: 0px 20px 0px;
+    padding-left: 2%;
     border: solid 2px black;
     border-radius: 50px;
-    margin-top: 0px;
-    margin-bottom: 30px ;
+    margin-left: 8%;
+    margin-right: 2%;
+}
+.precio{
+    display: flex;
+    font-size: 15px;
+    margin-left: 10%;
+
 }
 .porMayor{
+    display: none;
     font-size: 15px;
     color: gray;
-    margin-top: 0px;
-    margin-bottom: 30px ;
+    margin-left: 10%;
 }
-.caracteristicas{
+.datos{
+    display: none;
+    width: 200px;
+    flex-direction: column;
     font-size: 20px;
-    width: 320;
     background-color: #0FC2CD;
-    padding: 0px 10px 0px 15px;
+    padding-left: 5%;
+    margin-left: 8%;
     border: solid 2px black;
     border-radius: 50px;
-    margin-bottom: 80px;
+}
+.mas-info{
+    display: none;
 }
 .sumaProducto{
     display: flex;
     flex-direction: row;
 }
 .ladoIzquierdoSumaProducto{
-    font-size: 40px;
-    width: 10px;
-    height:40px ;
-    background-color: #6ED9FB;
-    display: flex;
-    flex-direction: row;
-    justify-content: center; 
-    align-items: center;
-    padding: 0px 10px 10px 10px;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border: solid 2px black;
-}
-.espacio{
-    font-size: 40px;
-    width: 55px;
-    height:50px ;
-    background-color: #6ED9FB;
-    display: flex;
-    flex-direction: row;
-    justify-content: center; 
-    align-items: center;
-    border-top: solid 2px black;
-    border-bottom: solid 2px black;
-    margin-top: 40px;
-}
-.ladoDerechoSumaProducto{
-    font-size: 40px;
-    width: 20px;
-    height:50px ;
+    font-size: 30px;
+    width: 15px;
+    height:15% ;
     background-color: #6ED9FB;
     display: flex;
     flex-direction: row;
     justify-content: center; 
     align-items: center;
     padding: 0px 5px 0px;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: solid 2px black;
+    margin-left: 8%;
+}
+.espacio{
+    font-size: 30px;
+    width: 15px;
+    height:15% ;
+    background-color: #6ED9FB;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    padding: 0px 5px 0px;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+.ladoDerechoSumaProducto{
+    font-size: 30px;
+    width: 15px;
+    height:15% ;
+    background-color: #6ED9FB;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    padding: 0px 5px 0px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
     border: solid 2px black;
 }
 .agregar{
-    font-size: 40px;
-    width: 170px;
-    height:45px ;
+    font-size: 30px;
     background-color: #DF6107;
     display: flex;
     flex-direction: row;
     justify-content: center; 
     align-items: center;
-    padding: 0px 5px 5px;
+    padding: 0 4%;
     border: solid 2px black;
     border-radius: 30px;
-    margin-left: 100;
+    margin-left: 5%;
+   
+}
+.imput{
+    height: 50px;
+}
+@media(max-width:390px){
+    .Encabezado{
+        height: 70px;
+    }
+    .Encabezado p1{
+        font-size: 15px;
+    }
+    .Encabezado p2{
+        font-size:13px;
+    }
+    .opciones1{
+        font-size: 15px;
+    }
+    .ComoSeLlego{
+        font-size: 10px;
+        color: black;
+    }
+    .ladoIzquierdoSumaProducto{
+        width: 10px;
+        font-size: 20px;
+        margin-top: 0;
+    }
+    .espacio{
+        width: 15px;
+        font-size: 20px;
+        margin: 0 0;
+    }
+    .ladoDerechoSumaProducto{
+        width: 10px;
+        font-size: 20px;
+        margin: 0 0;
+    }
+    .agregar{
+        height: 23px;
+        font-size: 20px;
+        margin: 0 5px;
+    }
+  }
+  @media(min-width:390px){
+    .datos{
+        display: flex;
+    }
+  }
+@media(min-width:769px){
+    .opciones1{
+        font-size: 25px;
+        }
+        .opciones2{
+            font-size: 20px;
+            }
+    .porMayor{
+        display: flex;
+    }
+    .datos{
+        display: flex;
+    }
+    .Encabezado{
+        height: 140px;
+        }
+        .ComoSeLlego{
+            font-size: 20px;
+        }
+        .nombre-producto{
+            font-size: 40px;
+            margin: 25px 0 5% 8%;
+        }
+        .tipo-producto{
+            max-width:450px;
+            font-size: 30px;
+        }
+        .precio{  
+            font-size: 25px;
+        }
+        .porMayor{
+            font-size: 25px;
+        }
+        .datos{
+            width: 300px;
+            font-size: 30px;
+        }
+        .ladoIzquierdoSumaProducto{
+            font-size: 50px;
+            width: 30px;
+        }
+        .espacio{
+            font-size: 50px;
+            width: 40px;
+        }
+        .ladoDerechoSumaProducto{
+            font-size: 50px;
+            width: 30px;
+        }
+        .agregar{
+            font-size: 50px;
+        }
+}  
+@media(min-width:1200px){
+    .opciones1{
+        font-size: 40px;
+        }
+    .ComoSeLlego{
+        font-size: 30px;
+    }
+    .logo{
+        margin-left: 30px;
+    }
+    .Encabezado p0{
+        height: 40%;
+        width: 70vw;
+        margin: 0 250px;
+        font-size: 25px;
+    }    
+    .Encabezado p1{
+        font-size: 40px;
+        width: 5vw;
+        padding: 7px;
+    }
+    .Encabezado p2{
+        width: 10vw;
+        font-size: 17px;
+}
+.nombre-producto{
+    font-size: 50px;
+}
+.tipo-producto{
+    max-width:600px;
+    font-size: 40px;
+}
+.precio{  
+    font-size: 35px;
+}
+.porMayor{
+    font-size: 35px;
+}
+.datos{
+    width: 450px;
+    font-size: 40px;
+}
+.ladoIzquierdoSumaProducto{
+    font-size: 50px;
+    width: 30px;
+}
+.espacio{
+    font-size: 50px;
+    width: 40px;
+}
+.ladoDerechoSumaProducto{
+    font-size: 50px;
+    width: 30px;
+}
+.agregar{
+    font-size: 50px;
+}
+.nombre-producto{
+    margin-top: 35px;
+}
+.opciones2{
+    font-size: 35px;
+}
 }
