@@ -7,6 +7,12 @@ body{margin: 0;}
     align-items: center;
     height: 100px;
     }
+.Encabezado a{
+    text-decoration: none;
+    color: black;
+}
+
+
 .logo{
     width: 12vw;
     height: 80%;
