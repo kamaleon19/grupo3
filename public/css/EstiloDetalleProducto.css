@@ -21,32 +21,6 @@ body{margin: 0;}
     border-radius: 30px;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
-    width: 600px;
-    height: 40px;
-    padding: 10px;
-    border: solid 2px black;
-    border-radius: 30px;
-    margin-top: 60px;
-    margin-bottom: 30px;
-    margin-right: 85px;
-}
-.carrito_persona{
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    margin-right: 25px;
-    margin-left: 10px;
-}
-#inicio-registro{
-    text-decoration: none;
-    color: black;
-}
-
-
-.carrito_persona_img{
-    font-size: 50px;
-=======
     margin-right: 3vw;
     margin-left: 8vw;
     color: rgb(97, 97, 97) ;
@@ -55,7 +29,6 @@ body{margin: 0;}
     font-size: 20px; 
     width: 5vw;
     height: 31%;
->>>>>>> 464d42067a1455d2cacdcbd1cebf2622e235be8c
     background-color: aliceblue;
     display: flex;    
     justify-content: center; 
