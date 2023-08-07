@@ -1,0 +1,81 @@
+header{
+    background-color: #e0e0e0;
+    
+}
+.logo{
+    width: 115px;
+    height: 115px;
+    border-radius: 50px;
+}
+.logoIcono{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    margin-left: 25%;
+    margin-top: 35%;
+}
+.carritoIcono{
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+}
+.loginIcono{
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+}
+
+.caja{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+a{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.busqueda{
+    height: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+input{
+    font-size: 15px;
+    width: 40%;
+    height: 30px;
+    border-radius: 25px;
+    border: solid #e0e0e0 3px;
+    text-align: center;
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+#lupaIcono{
+    height: 10px;
+}
+nav{
+    background-color: #009688;
+}
+ul li{
+    list-style: none;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+ul{
+    display: flex;
+    height: 20%;
+    justify-content: space-evenly;
+    padding:2%;
+    margin: 0;
+}
+.carrusel{
+    
+}
