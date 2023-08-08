@@ -7,31 +7,42 @@ body{margin: 0;}
     align-items: center;
     height: 100px;
     }
-.Encabezado a{
-    text-decoration: none;
-    color: black;
-}
-
-
 .logo{
     width: 12vw;
     height: 80%;
     display: flex;
+    margin-left: 1.2%;
   }
 .Encabezado p0{
-    height: 31%;
-    background-color: white;
-    font-size: 15px;
     display: flex;
-    width: 40vw;
-    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 20%;
+    margin-bottom: 0;
+}    
+input{
+    padding: 5% 15%;
+    border-right: 0;
+    border-bottom: solid 2px black;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+  form{
+    display: flex;
+    margin-bottom: 0;
+  }
+  button{
+    padding: 5% 5%;
     justify-content: center;
     align-items: center;
-    margin-right: 3vw;
-    margin-left: 8vw;
-    color: rgb(97, 97, 97) ;
-}    
-.Encabezado p1{
+    border-left: 0;
+    border-top: solid 2px black;
+    background-color: white;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+.p1{
     font-size: 20px; 
     width: 5vw;
     height: 31%;
@@ -39,7 +50,6 @@ body{margin: 0;}
     display: flex;    
     justify-content: center; 
     align-items: center;
-    border: solid 2px black;
     border-radius: 50%;
 }
 .Encabezado p2{
@@ -201,14 +211,11 @@ div1{
     margin-left: 5%;
    
 }
-.imput{
-    height: 50px;
-}
 @media(max-width:390px){
     .Encabezado{
         height: 70px;
     }
-    .Encabezado p1{
+    .p1{
         font-size: 15px;
     }
     .Encabezado p2{
@@ -301,6 +308,13 @@ div1{
         }
 }  
 @media(min-width:1200px){
+    input{
+        width: 30vw;
+        padding: 2%;
+      }
+      button{
+        padding: 2% 3%;
+      }
     .opciones1{
         font-size: 40px;
         }
@@ -316,14 +330,15 @@ div1{
         margin: 0 250px;
         font-size: 25px;
     }    
-    .Encabezado p1{
+    .p1{
         font-size: 40px;
-        width: 5vw;
-        padding: 7px;
+        width: 4vw;
+        height: 49.109%;
     }
     .Encabezado p2{
         width: 10vw;
         font-size: 17px;
+        margin-right: 1%;
 }
 .nombre-producto{
     font-size: 50px;

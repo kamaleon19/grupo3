@@ -6,41 +6,43 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     rel="stylesheet" />
     <title>Supermercado</title>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/home.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" /> 
+
 
 </head>
 <body>
-    <header>
-      <div class="logo">
-    <img src="./imagenSprint/logoSupermercado.png" alt="logo" class="logoIcono">
+  <div class="Encabezado">
+
+    <img class="logo" src="./imagenSprint/logo-gran-via.webp">
+    <p0>
+       <form action="resultado.html" method="get">
+      <label for="nombre" > </label>
+      <input type="text" id="nombre" placeholder="Buscá tus productos">
+      <button><i class="fa-solid fa-magnifying-glass"></i></button>
+      </form>
+    
+    </p0>
+     
+    <p1><img class="p1" src="./imagenSprint/carroIcono.jpg"></p1>
+    <p2>Mi carrito</p2>
+    <p1><img class="p1" src="./imagenSprint/loginIcono.jpg"></p1>
+    <p2><a href="/login">inicio/ registro</a></p2> 
+</div>
+
+    <div class="opciones1"> 
+        <p>Hogar</p>
+        <p>Mercaderia</p>
+        <p>Helectrodomesticos</p>
+        <p>Ferreteria</p>
+        <p>Jardineria</p>
     </div>
-    <div class="busqueda">
-    <input type="text" name="busqueda" value="Buscá tus productos"> <i class="fas fa-search" id="lupaIcono"></i>
-     </div>
-    <div class="caja">
-    <div class="carrito">
-    <a href=""> <img src="./imagenSprint/carroIcono.jpg" alt="carrito" class="carritoIcono"> Mi carrito</a>
-     </div>
-     <div class="login">
-    <a href=""> <img src="./imagenSprint/loginIcono.jpg" alt="login" class="loginIcono">Inicio/Registro</a>
-    </div>
-     </div>
-    </header>
-    <nav>
-        <ul>
-            <li>Mercadera</li>
-            <li>Ferreteria</li>
-            <li>Hogar</li>
-            <li>Electrodomesticos</li>
-            <li>Jardineria</li>
-        </ul>
-     </nav>
 
 
      <main>
@@ -50,11 +52,13 @@
           
         <div class="cajaDescuentos">
       <div class="boton">
-        <a href=""><img src="./imagenSprint/galicia.jpg" alt="" class="imagenBotonGalicia"><p class="texto">Descuentos de hasta un 25% con Galicia</p></a>
+        <p0><img src="./imagenSprint/galicia.jpg" alt="" class="imagenBotonGalicia"></p0>
+          <p class="texto">Descuentos de hasta un 25% con Galicia</p>
       </div>
 
       <div class="boton">
-        <a href=""> <img src="./imagenSprint/visa.png" alt="" class="imagenBoton"><p class="texto">Todos los martes 15% de Descuento con Visa </p></a>
+        <img src="./imagenSprint/visa.png" alt="" class="imagenBoton">
+          <p class="texto">Todos los martes 15% de Descuento con Visa </p>
       </div>
        </div>
 
