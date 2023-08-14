@@ -1,6 +1,8 @@
 body{
     margin: 0;
+
 }
+
 header{
     background-color: #e0e0e0;
 }
@@ -75,6 +77,8 @@ input{
     align-items: center;
     border-top: solid 1px black;
     border-bottom: solid 1px black;
+    font-family: 'Bebas Neue', sans-serif;
+
 }
 .carrusel{
     display: flex;
