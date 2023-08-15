@@ -25,3 +25,7 @@ app.get("/DetalleProducto",function (req,res){
  app.get("/login",function (req,res){
      res.sendFile(path.join(__dirname,"/views/login.html"))
  })
+
+ app.get("/footer",function (req,res){
+    res.sendFile(path.join(__dirname,"/views/footer.html"))
+})

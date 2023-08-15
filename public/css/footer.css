@@ -1,0 +1,47 @@
+.footer1{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.footer2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer2 ul li{
+    list-style: none;
+    margin: 5% 0%;
+}
+
+.footer3{
+    display: flex;
+    /* justify-content: space-around; */
+    /* border: solid 2px red; */
+    
+
+}
+  .footer3 ul{
+ /*    border: solid 2px green */
+  /*   width: 50%; */
+    margin-left:45%;
+    
+   
+    
+  
+} 
+  
+button{
+    margin: 5% 0%;
+}
+
+.titulo{
+    margin-left: 50%;
+}
+
+.botones{
+    
+     margin-left: 20%;
+    /* border: solid 2px blue; */
+}
