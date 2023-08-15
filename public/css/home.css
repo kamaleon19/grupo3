@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+
+}
+
+header{
+    background-color: #e0e0e0;
+}
+.Encabezado{
+    background-color: #e0e0e0    ;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    }
+.logo{
+    width: 12vw;
+    height: 80%;
+    display: flex;
+    margin-left: 1.2%;
+  }
+.Encabezado p0{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 20%;
+    margin-bottom: 0;
+}    
+input{
+    padding: 5% 15%;
+    border-right: 0;
+    border-bottom: solid 2px black;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+  form{
+    display: flex;
+    margin-bottom: 0;
+  }
+  button{
+    padding: 5% 5%;
+    justify-content: center;
+    align-items: center;
+    border-left: 0;
+    border-top: solid 2px black;
+    background-color: white;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+.p1{
+    font-size: 20px; 
+    width: 5vw;
+    height: 31%;
+    background-color: aliceblue;
+    display: flex;    
+    justify-content: center; 
+    align-items: center;
+    border-radius: 50%;
+}
+.Encabezado p2{
+    font-size:15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 50%;
+}
+.opciones1{
+    font-size: 20px;
+    height: 50px;
+    color: white;
+    background-color: #009688;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+.carrusel{
+    display: flex;
+    width: 85%;
+    height: 300px;
+    margin: auto;
+    margin-top: 10px;
+}
+.boton{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    width: 27%;
+    border-radius: 25px;
+    border: solid #009688 3px;
+}
+.boton p0{
+    width: 110%;
+}
+.texto{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin-left: 5%;
+  width: 100%;
+  font-family: 'Bebas Neue', sans-serif;
+  
+}
+.imagenBoton{
+    margin:3% 2% 4% 5%;
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+.imagenBotonGalicia{
+    margin-left: 15%;
+    margin-top: 5%;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+.cajaDescuentos{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.subtitulo{
+    text-align: center;
+    width: 20%;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 20px;
+    display: inline-block;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 35px;
+    background-color: #009688;
+    color: white;
+    margin-bottom: 55px;
+}
+.producto1{
+    border-radius: 23px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    border: solid 8px #009688;
+    width: 40%;
+    margin-left: 10%;
+}
+.queso{
+    width: 100%;
+    margin-left: 2%;
+    margin-top: 6%;
+}
+.descripcion{
+   margin-left: 5%;
+    margin-right: 15%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border: solid #009688 2px;
+    border-radius: 20px;
+    height: 80%;
+    margin-top: 15px;
+    padding: 3px;
+}
+.producto2{
+    border-radius: 23px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    border: solid 8px #009688;
+    width: 40%;
+    margin-left: 100px;
+}
+.mayonesa{
+    width: 150%;
+    margin-left: 5%;
+    margin-top: 40%;
+}
+.descripcionMayonesa{
+    margin-right: 15%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-left: 15%;
+    border: #009688 2px solid;
+    margin-top: 15px;
+    border-radius: 20px;
+    height: 90%;
+    padding: 3px;
+}
+.productos{
+    display: flex;
+    flex-direction: row;
+}
+.sucursal{
+    margin-top: 55px;
+    display: flex;
+    background-color: #009688;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 35px;
+    border-radius: 23px;
+    width: 45%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 30%;
+}
+@media(max-width:390px){
+    .Encabezado{
+        height: 70px;
+    }
+    .p1{
+        font-size: 15px;
+    }
+    .Encabezado p2{
+        font-size:13px;
+    }
+    .opciones1{
+        font-size: 15px;
+  }
+  }
+@media(min-width:769px){
+.opciones1{
+   font-size: 25px;
+   }
+.Encabezado{
+    height: 140px;
+    }
+}  
+@media(min-width:1200px){
+    input{
+        width: 30vw;
+        padding: 2%;
+      }
+      button{
+        padding: 2% 3%;
+      }
+    .opciones1{
+        font-size: 40px;
+        }
+    .logo{
+        margin-left: 30px;
+    }
+    .Encabezado p0{
+        height: 40%;
+        width: 70vw;
+        margin: 0 250px;
+        font-size: 25px;
+    }    
+    .p1{
+        font-size: 40px;
+        width: 4vw;
+        height: 20%;
+    }
+    .Encabezado p2{
+        width: 10vw;
+        font-size: 17px;
+        margin-right: 1%;
+}
+}
