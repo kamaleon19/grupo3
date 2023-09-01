@@ -39,7 +39,7 @@ input{
     display: flex;
     margin-bottom: 0;
   }
-  button{
+   .button1{
     padding: 5% 5%;
     justify-content: center;
     align-items: center;
@@ -48,7 +48,7 @@ input{
     background-color: white;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
-  }
+  }   
 .p1{
     font-size: 20px; 
     width: 5vw;
@@ -78,6 +78,8 @@ input{
     border-top: solid 1px black;
     border-bottom: solid 1px black;
     font-family: 'Bebas Neue', sans-serif;
+   /*  position: fixed;
+     */
 
 }
 .carrusel{
@@ -208,6 +210,70 @@ input{
     justify-content: center;
     margin-left: 30%;
 }
+
+/* footer */
+.footer1{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.footer2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer2 ul li{
+    list-style: none;
+    margin: 5% 0%;
+}
+.redes{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+   /*  margin: auto; */
+     /* border: solid 2px blue;  */
+ }
+
+
+.footer3{
+    display: flex;
+    /* justify-content: space-around; */
+    /* border: solid 2px red; */
+    
+
+}
+  .footer3 ul{
+ /*    border: solid 2px green */
+  /*   width: 50%; */
+    margin-left:45%;
+    
+   
+    
+  
+} 
+  
+ .button2{
+    margin: 5% 0%;
+    border: solid 2px black;
+    background-color: white;
+    border-radius:50px
+
+} 
+
+.titulo{
+    margin-left: 50%;
+}
+
+.botones{
+    
+     margin-left: 20%;
+    /* border: solid 2px blue; */
+}
+ 
+
+
 @media(max-width:390px){
     .Encabezado{
         height: 70px;
